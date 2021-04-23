@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Hello from './Components/Hello/Hello'
-import './App.css';
+import classes from './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className={classes.App}>
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a> */}
-        <Hello name="Arafat" />
+        <Hello  name="Arafat" />
       </header>
     </div>
   );
