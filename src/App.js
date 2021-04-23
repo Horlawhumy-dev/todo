@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Hello from './Hello/Hello'
+import Hello from './Components/Hello/Hello'
 import './App.css';
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
           Learn React
         </a> */}
         <Hello name="Arafat" />
-
       </header>
     </div>
   );
